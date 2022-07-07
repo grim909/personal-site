@@ -124,13 +124,20 @@ body {
 
 .project .project-container {
     width: 70%;
-    float: '';
+    float: right;
 }
 
 .project .project-container p {
     font-family: 'Times New Roman', Times, serif;
     margin: 40px 0;
     font-size: 36px;
+}
+
+.project .project-container a {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 0;
+    font-size: 36px;
+    text-decoration: underline;
 }
 
 @media (max-width: 900px) {
